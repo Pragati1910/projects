@@ -1,0 +1,185 @@
+html {
+    background-color: #faf9f6;
+}
+
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    height: 50px;
+    width: 300px;
+    margin: 5px;
+}
+
+#heading {
+    position: relative;
+    top: 100px;
+    left: 25px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    display: inline;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 55px;
+    text-align: left;
+}
+
+span {
+    color: rgb(7, 7, 103);
+}
+
+#beauty {
+    display: inline;
+    clear: left;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    height: 600px;
+    width: 600px;
+    margin: 25px;
+}
+
+#construction {
+    display: inline;
+    clear: right;
+    position: absolute;
+    top: -30px;
+    left: 625px;
+    height: 600px;
+    width: 600px;
+    margin: 25px;
+}
+
+#p1 {
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+
+}
+
+#p2 {
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+
+}
+
+h2 {
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+}
+
+div#beauty>p {
+    font-family: poppins, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: black;
+
+}
+
+div#construction>p {
+    font-family: poppins, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: black;
+}
+
+footer {
+    text-align: right;
+    color: midnightblue;
+    font-family: poppins, sans-serif;
+    clear: left;
+}
+
+@media (max-width:600px) {
+    #logo {
+        position: absolute;
+        top: 15px;
+        left: 12.5px;
+        height: 25px;
+        width: 150px;
+        margin: 2.5px;
+    }
+
+    #heading {
+        position: relative;
+        top: 100px;
+        left: 25px;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        display: inline;
+        font-family: Poppins, sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 55px;
+        text-align: left;
+    }
+
+    span {
+        color: rgb(7, 7, 103);
+    }
+
+    #beauty {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        height: 300px;
+        width: 300px;
+    }
+    #construction{
+        position:absolute;
+        top:450px;
+        left:-30px;
+        height:300px;
+        width:300px;
+    }
+    #p1 {
+        margin: 10px;
+        height: 250px;
+        width: 350px;
+
+    }
+    #p2 {
+        margin: 10px;
+        height: 250px;
+        width: 350px;
+
+    }
+    h2 {
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: black;
+    }
+
+    div#beauty>p {
+        font-family: poppins, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        color: black;
+
+    }
+
+    div#construction>p {
+        font-family: poppins, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        color: black;
+    }
+
+    footer {
+        text-align: right;
+        color: midnightblue;
+        font-family: poppins, sans-serif;
+        clear: left;
+    }
+}
